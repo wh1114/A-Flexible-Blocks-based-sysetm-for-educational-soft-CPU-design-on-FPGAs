@@ -1,5 +1,5 @@
 Flow report for CPU_main
-Tue Jun 19 22:13:36 2018
+Wed Jun 20 15:30:46 2018
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Tue Jun 19 22:13:09 2018           ;
+; Flow Status                     ; Successful - Wed Jun 20 15:30:22 2018           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; CPU_main                                        ;
 ; Top-level Entity Name           ; processor_top_shell                             ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/19/2018 22:10:12 ;
+; Start date & time ; 06/20/2018 15:27:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU_main            ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+---------------------+------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name         ; Section Id ;
 +-------------------------------------+---------------------------------------+---------------+---------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 27114225266156.152944261210772        ; --            ; --                  ; --         ;
+; COMPILER_SIGNATURE_ID               ; 83613316221452.152950485109116        ; --            ; --                  ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --                  ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --                  ; --         ;
 ; MISC_FILE                           ; ROM_CPU_bb.v                          ; --            ; --                  ; --         ;
@@ -99,11 +99,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:33     ; 1.0                     ; 899 MB              ; 00:00:51                           ;
-; Fitter                    ; 00:01:57     ; 1.0                     ; 2404 MB             ; 00:03:21                           ;
-; Assembler                 ; 00:00:14     ; 1.0                     ; 902 MB              ; 00:00:12                           ;
-; TimeQuest Timing Analyzer ; 00:00:25     ; 1.3                     ; 1238 MB             ; 00:00:21                           ;
-; Total                     ; 00:03:09     ; --                      ; --                  ; 00:04:45                           ;
+; Analysis & Synthesis      ; 00:00:30     ; 1.0                     ; 935 MB              ; 00:00:57                           ;
+; Fitter                    ; 00:02:13     ; 1.0                     ; 2329 MB             ; 00:03:58                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 838 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:22     ; 1.4                     ; 1269 MB             ; 00:00:29                           ;
+; Total                     ; 00:03:08     ; --                      ; --                  ; 00:05:27                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,10 +112,10 @@ agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; eews303a-048     ; Windows 7 ; 6.1        ; x86_64         ;
-; Fitter                    ; eews303a-048     ; Windows 7 ; 6.1        ; x86_64         ;
-; Assembler                 ; eews303a-048     ; Windows 7 ; 6.1        ; x86_64         ;
-; TimeQuest Timing Analyzer ; eews303a-048     ; Windows 7 ; 6.1        ; x86_64         ;
+; Analysis & Synthesis      ; DESKTOP-R6NE29C  ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-R6NE29C  ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-R6NE29C  ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-R6NE29C  ; Windows 8 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

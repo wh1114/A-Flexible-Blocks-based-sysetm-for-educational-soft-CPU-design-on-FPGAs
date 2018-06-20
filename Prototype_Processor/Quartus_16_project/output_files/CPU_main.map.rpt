@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU_main
-Tue Jun 19 22:10:46 2018
+Wed Jun 20 15:28:01 2018
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -248,7 +248,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Jun 19 22:10:46 2018           ;
+; Analysis & Synthesis Status     ; Successful - Wed Jun 20 15:28:01 2018           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; CPU_main                                        ;
 ; Top-level Entity Name           ; processor_top_shell                             ;
@@ -373,87 +373,87 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                             ;
-+-------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path    ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                            ; Library ;
-+-------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------+---------+
-; gates/OR_GATE_18_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_18_INPUTS.v           ;         ;
-; ROM_QUARTUS_16.v                    ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/ROM_QUARTUS_16.v                    ;         ;
-; RAM_QUARTUS_16.v                    ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/RAM_QUARTUS_16.v                    ;         ;
-; circuit/State_machine.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/State_machine.v             ;         ;
-; circuit/RIGHT_SHIFT_BLOCK.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RIGHT_SHIFT_BLOCK.v         ;         ;
-; circuit/PROCESSOR_CTRL_UNIT.v       ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PROCESSOR_CTRL_UNIT.v       ;         ;
-; circuit/PC_RAM_DECODER.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PC_RAM_DECODER.v            ;         ;
-; circuit/LEFT_SHIFT_BLOCK.v          ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/LEFT_SHIFT_BLOCK.v          ;         ;
-; circuit/FLAG_REGISTER.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/FLAG_REGISTER.v             ;         ;
-; circuit/CTRL_DECODER.v              ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v              ;         ;
-; circuit/CPU_REGISTERS.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_REGISTERS.v             ;         ;
-; circuit/COND_FLAG_CHK.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/COND_FLAG_CHK.v             ;         ;
-; circuit/ALU.v                       ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v                       ;         ;
-; wrapper/Soft_core_CPU_wrapper_top.v ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/Soft_core_CPU_wrapper_top.v ;         ;
-; wrapper/pluse_gen_extra_delay.v     ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/pluse_gen_extra_delay.v     ;         ;
-; wrapper/pluse_gen.v                 ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/pluse_gen.v                 ;         ;
-; wrapper/output_display.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/output_display.v            ;         ;
-; wrapper/hex27seg.v                  ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/hex27seg.v                  ;         ;
-; wrapper/CPU_EN_CTRL.v               ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/CPU_EN_CTRL.v               ;         ;
-; arithmetic/Shifter_32_bit.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v         ;         ;
-; arithmetic/FullAdder.v              ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/FullAdder.v              ;         ;
-; arithmetic/Comparator.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Comparator.v             ;         ;
-; arithmetic/Adder.v                  ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Adder.v                  ;         ;
-; base/LogisimTickGenerator.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/base/LogisimTickGenerator.v         ;         ;
-; base/LogisimClockComponent.v        ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/base/LogisimClockComponent.v        ;         ;
-; circuit/RAM_interface.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RAM_interface.v             ;         ;
-; circuit/CPU_main.v                  ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v                  ;         ;
-; circuit/ALU_ADDER.v                 ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_ADDER.v                 ;         ;
-; gates/XOR_GATE_ONEHOT.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/XOR_GATE_ONEHOT.v             ;         ;
-; gates/XOR_GATE_BUS_ONEHOT.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/XOR_GATE_BUS_ONEHOT.v         ;         ;
-; gates/OR_GATE_BUS.v                 ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_BUS.v                 ;         ;
-; gates/OR_GATE_9_INPUTS.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_9_INPUTS.v            ;         ;
-; gates/OR_GATE_7_INPUTS.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_7_INPUTS.v            ;         ;
-; gates/OR_GATE_6_INPUTS.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_6_INPUTS.v            ;         ;
-; gates/OR_GATE_5_INPUTS.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_5_INPUTS.v            ;         ;
-; gates/OR_GATE_4_INPUTS.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_4_INPUTS.v            ;         ;
-; gates/OR_GATE_3_INPUTS.v            ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_3_INPUTS.v            ;         ;
-; gates/OR_GATE.v                     ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE.v                     ;         ;
-; gates/NOT_GATE_BUS.v                ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/NOT_GATE_BUS.v                ;         ;
-; gates/NOT_GATE.v                    ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/NOT_GATE.v                    ;         ;
-; gates/NAND_GATE_5_INPUTS.v          ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_5_INPUTS.v          ;         ;
-; gates/NAND_GATE_4_INPUTS.v          ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_4_INPUTS.v          ;         ;
-; gates/NAND_GATE_3_INPUTS.v          ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_3_INPUTS.v          ;         ;
-; gates/AND_GATE_BUS.v                ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_BUS.v                ;         ;
-; gates/AND_GATE_10_INPUTS.v          ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_10_INPUTS.v          ;         ;
-; gates/AND_GATE_9_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_9_INPUTS.v           ;         ;
-; gates/AND_GATE_8_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_8_INPUTS.v           ;         ;
-; gates/AND_GATE_7_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_7_INPUTS.v           ;         ;
-; gates/AND_GATE_6_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_6_INPUTS.v           ;         ;
-; gates/AND_GATE_5_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_5_INPUTS.v           ;         ;
-; gates/AND_GATE_4_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_4_INPUTS.v           ;         ;
-; gates/AND_GATE_3_INPUTS.v           ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_3_INPUTS.v           ;         ;
-; gates/AND_GATE.v                    ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE.v                    ;         ;
-; memory/REGISTER_FLIP_FLOP.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/memory/REGISTER_FLIP_FLOP.v         ;         ;
-; plexers/Multiplexer_bus_16.v        ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_16.v        ;         ;
-; plexers/Multiplexer_bus_8.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_8.v         ;         ;
-; plexers/Multiplexer_bus_4.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_4.v         ;         ;
-; plexers/Multiplexer_bus_2.v         ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_2.v         ;         ;
-; plexers/Multiplexer_2.v             ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_2.v             ;         ;
-; plexers/Decoder_16.v                ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Decoder_16.v                ;         ;
-; toplevel/processor_top_shell.v      ; yes             ; User Verilog HDL File                  ; H:/FYP/Working/QUARTUS_FILE/Overall/toplevel/processor_top_shell.v      ;         ;
-; ROM_CPU.v                           ; yes             ; User Wizard-Generated File             ; H:/FYP/Working/QUARTUS_FILE/Overall/ROM_CPU.v                           ;         ;
-; RAM_CPU.v                           ; yes             ; User Wizard-Generated File             ; H:/FYP/Working/QUARTUS_FILE/Overall/RAM_CPU.v                           ;         ;
-; altsyncram.tdf                      ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/altsyncram.tdf           ;         ;
-; stratix_ram_block.inc               ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/stratix_ram_block.inc    ;         ;
-; lpm_mux.inc                         ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/lpm_mux.inc              ;         ;
-; lpm_decode.inc                      ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/lpm_decode.inc           ;         ;
-; aglobal160.inc                      ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/aglobal160.inc           ;         ;
-; a_rdenreg.inc                       ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/a_rdenreg.inc            ;         ;
-; altrom.inc                          ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/altrom.inc               ;         ;
-; altram.inc                          ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/altram.inc               ;         ;
-; altdpram.inc                        ; yes             ; Megafunction                           ; c:/altera/16.0/quartus/libraries/megafunctions/altdpram.inc             ;         ;
-; db/altsyncram_06h1.tdf              ; yes             ; Auto-Generated Megafunction            ; H:/FYP/Working/QUARTUS_FILE/Overall/db/altsyncram_06h1.tdf              ;         ;
-; rom_cpu.mif                         ; yes             ; Auto-Found Memory Initialization File  ; H:/FYP/Working/QUARTUS_FILE/Overall/rom_cpu.mif                         ;         ;
-; db/altsyncram_3dv1.tdf              ; yes             ; Auto-Generated Megafunction            ; H:/FYP/Working/QUARTUS_FILE/Overall/db/altsyncram_3dv1.tdf              ;         ;
-+-------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                   ;
++-------------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path    ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                  ; Library ;
++-------------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------------------+---------+
+; gates/OR_GATE_18_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_18_INPUTS.v           ;         ;
+; ROM_QUARTUS_16.v                    ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_QUARTUS_16.v                    ;         ;
+; RAM_QUARTUS_16.v                    ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_QUARTUS_16.v                    ;         ;
+; circuit/State_machine.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/State_machine.v             ;         ;
+; circuit/RIGHT_SHIFT_BLOCK.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RIGHT_SHIFT_BLOCK.v         ;         ;
+; circuit/PROCESSOR_CTRL_UNIT.v       ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PROCESSOR_CTRL_UNIT.v       ;         ;
+; circuit/PC_RAM_DECODER.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PC_RAM_DECODER.v            ;         ;
+; circuit/LEFT_SHIFT_BLOCK.v          ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/LEFT_SHIFT_BLOCK.v          ;         ;
+; circuit/FLAG_REGISTER.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/FLAG_REGISTER.v             ;         ;
+; circuit/CTRL_DECODER.v              ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v              ;         ;
+; circuit/CPU_REGISTERS.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_REGISTERS.v             ;         ;
+; circuit/COND_FLAG_CHK.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/COND_FLAG_CHK.v             ;         ;
+; circuit/ALU.v                       ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v                       ;         ;
+; wrapper/Soft_core_CPU_wrapper_top.v ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/Soft_core_CPU_wrapper_top.v ;         ;
+; wrapper/pluse_gen_extra_delay.v     ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/pluse_gen_extra_delay.v     ;         ;
+; wrapper/pluse_gen.v                 ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/pluse_gen.v                 ;         ;
+; wrapper/output_display.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/output_display.v            ;         ;
+; wrapper/hex27seg.v                  ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/hex27seg.v                  ;         ;
+; wrapper/CPU_EN_CTRL.v               ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/CPU_EN_CTRL.v               ;         ;
+; arithmetic/Shifter_32_bit.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v         ;         ;
+; arithmetic/FullAdder.v              ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/FullAdder.v              ;         ;
+; arithmetic/Comparator.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Comparator.v             ;         ;
+; arithmetic/Adder.v                  ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Adder.v                  ;         ;
+; base/LogisimTickGenerator.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/base/LogisimTickGenerator.v         ;         ;
+; base/LogisimClockComponent.v        ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/base/LogisimClockComponent.v        ;         ;
+; circuit/RAM_interface.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RAM_interface.v             ;         ;
+; circuit/CPU_main.v                  ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v                  ;         ;
+; circuit/ALU_ADDER.v                 ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_ADDER.v                 ;         ;
+; gates/XOR_GATE_ONEHOT.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/XOR_GATE_ONEHOT.v             ;         ;
+; gates/XOR_GATE_BUS_ONEHOT.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/XOR_GATE_BUS_ONEHOT.v         ;         ;
+; gates/OR_GATE_BUS.v                 ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_BUS.v                 ;         ;
+; gates/OR_GATE_9_INPUTS.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_9_INPUTS.v            ;         ;
+; gates/OR_GATE_7_INPUTS.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_7_INPUTS.v            ;         ;
+; gates/OR_GATE_6_INPUTS.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_6_INPUTS.v            ;         ;
+; gates/OR_GATE_5_INPUTS.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_5_INPUTS.v            ;         ;
+; gates/OR_GATE_4_INPUTS.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_4_INPUTS.v            ;         ;
+; gates/OR_GATE_3_INPUTS.v            ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_3_INPUTS.v            ;         ;
+; gates/OR_GATE.v                     ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE.v                     ;         ;
+; gates/NOT_GATE_BUS.v                ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NOT_GATE_BUS.v                ;         ;
+; gates/NOT_GATE.v                    ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NOT_GATE.v                    ;         ;
+; gates/NAND_GATE_5_INPUTS.v          ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_5_INPUTS.v          ;         ;
+; gates/NAND_GATE_4_INPUTS.v          ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_4_INPUTS.v          ;         ;
+; gates/NAND_GATE_3_INPUTS.v          ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_3_INPUTS.v          ;         ;
+; gates/AND_GATE_BUS.v                ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_BUS.v                ;         ;
+; gates/AND_GATE_10_INPUTS.v          ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_10_INPUTS.v          ;         ;
+; gates/AND_GATE_9_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_9_INPUTS.v           ;         ;
+; gates/AND_GATE_8_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_8_INPUTS.v           ;         ;
+; gates/AND_GATE_7_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_7_INPUTS.v           ;         ;
+; gates/AND_GATE_6_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_6_INPUTS.v           ;         ;
+; gates/AND_GATE_5_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_5_INPUTS.v           ;         ;
+; gates/AND_GATE_4_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_4_INPUTS.v           ;         ;
+; gates/AND_GATE_3_INPUTS.v           ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_3_INPUTS.v           ;         ;
+; gates/AND_GATE.v                    ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE.v                    ;         ;
+; memory/REGISTER_FLIP_FLOP.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/memory/REGISTER_FLIP_FLOP.v         ;         ;
+; plexers/Multiplexer_bus_16.v        ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_16.v        ;         ;
+; plexers/Multiplexer_bus_8.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_8.v         ;         ;
+; plexers/Multiplexer_bus_4.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_4.v         ;         ;
+; plexers/Multiplexer_bus_2.v         ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_2.v         ;         ;
+; plexers/Multiplexer_2.v             ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_2.v             ;         ;
+; plexers/Decoder_16.v                ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Decoder_16.v                ;         ;
+; toplevel/processor_top_shell.v      ; yes             ; User Verilog HDL File                  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/toplevel/processor_top_shell.v      ;         ;
+; ROM_CPU.v                           ; yes             ; User Wizard-Generated File             ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_CPU.v                           ;         ;
+; RAM_CPU.v                           ; yes             ; User Wizard-Generated File             ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_CPU.v                           ;         ;
+; altsyncram.tdf                      ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/altsyncram.tdf                                 ;         ;
+; stratix_ram_block.inc               ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/stratix_ram_block.inc                          ;         ;
+; lpm_mux.inc                         ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/lpm_mux.inc                                    ;         ;
+; lpm_decode.inc                      ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/lpm_decode.inc                                 ;         ;
+; aglobal160.inc                      ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/aglobal160.inc                                 ;         ;
+; a_rdenreg.inc                       ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/a_rdenreg.inc                                  ;         ;
+; altrom.inc                          ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/altrom.inc                                     ;         ;
+; altram.inc                          ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/altram.inc                                     ;         ;
+; altdpram.inc                        ; yes             ; Megafunction                           ; d:/altera/16.0/quartus/libraries/megafunctions/altdpram.inc                                   ;         ;
+; db/altsyncram_06h1.tdf              ; yes             ; Auto-Generated Megafunction            ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/db/altsyncram_06h1.tdf              ;         ;
+; rom_cpu.mif                         ; yes             ; Auto-Found Memory Initialization File  ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/rom_cpu.mif                         ;         ;
+; db/altsyncram_3dv1.tdf              ; yes             ; Auto-Generated Megafunction            ; D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/db/altsyncram_3dv1.tdf              ;         ;
++-------------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------------------+
@@ -2889,7 +2889,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:09     ;
 +----------------+--------------+
 
 
@@ -2899,292 +2899,292 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Tue Jun 19 22:10:11 2018
+    Info: Processing started: Wed Jun 20 15:27:30 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Soft-core_CPU -c CPU_main
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_18_inputs.v
-    Info (12023): Found entity 1: OR_GATE_18_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_18_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_18_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_18_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file rom_quartus_16.v
-    Info (12023): Found entity 1: ROM_QUARTUS_16 File: H:/FYP/Working/QUARTUS_FILE/Overall/ROM_QUARTUS_16.v Line: 8
+    Info (12023): Found entity 1: ROM_QUARTUS_16 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_QUARTUS_16.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file ram_quartus_16.v
-    Info (12023): Found entity 1: RAM_QUARTUS_16 File: H:/FYP/Working/QUARTUS_FILE/Overall/RAM_QUARTUS_16.v Line: 8
+    Info (12023): Found entity 1: RAM_QUARTUS_16 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_QUARTUS_16.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/top_level_processor_with_wrapper.v
-    Info (12023): Found entity 1: Top_level_processor_with_wrapper File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/Top_level_processor_with_wrapper.v Line: 8
+    Info (12023): Found entity 1: Top_level_processor_with_wrapper File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/Top_level_processor_with_wrapper.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/state_machine.v
-    Info (12023): Found entity 1: State_machine File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/State_machine.v Line: 8
+    Info (12023): Found entity 1: State_machine File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/State_machine.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/right_shift_block.v
-    Info (12023): Found entity 1: RIGHT_SHIFT_BLOCK File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RIGHT_SHIFT_BLOCK.v Line: 8
+    Info (12023): Found entity 1: RIGHT_SHIFT_BLOCK File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RIGHT_SHIFT_BLOCK.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/processor_ctrl_unit.v
-    Info (12023): Found entity 1: PROCESSOR_CTRL_UNIT File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PROCESSOR_CTRL_UNIT.v Line: 8
+    Info (12023): Found entity 1: PROCESSOR_CTRL_UNIT File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PROCESSOR_CTRL_UNIT.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/pc_ram_decoder.v
-    Info (12023): Found entity 1: PC_RAM_DECODER File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PC_RAM_DECODER.v Line: 8
+    Info (12023): Found entity 1: PC_RAM_DECODER File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PC_RAM_DECODER.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/left_shift_block.v
-    Info (12023): Found entity 1: LEFT_SHIFT_BLOCK File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/LEFT_SHIFT_BLOCK.v Line: 8
+    Info (12023): Found entity 1: LEFT_SHIFT_BLOCK File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/LEFT_SHIFT_BLOCK.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/flag_register.v
-    Info (12023): Found entity 1: FLAG_REGISTER File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/FLAG_REGISTER.v Line: 8
+    Info (12023): Found entity 1: FLAG_REGISTER File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/FLAG_REGISTER.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/ctrl_decoder.v
-    Info (12023): Found entity 1: CTRL_DECODER File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 8
+    Info (12023): Found entity 1: CTRL_DECODER File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/cpu_registers.v
-    Info (12023): Found entity 1: CPU_REGISTERS File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_REGISTERS.v Line: 8
+    Info (12023): Found entity 1: CPU_REGISTERS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_REGISTERS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/cond_flag_chk.v
-    Info (12023): Found entity 1: COND_FLAG_CHK File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/COND_FLAG_CHK.v Line: 8
+    Info (12023): Found entity 1: COND_FLAG_CHK File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/COND_FLAG_CHK.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/alu.v
-    Info (12023): Found entity 1: ALU File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 8
+    Info (12023): Found entity 1: ALU File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file wrapper/soft_core_cpu_wrapper_top.v
-    Info (12023): Found entity 1: Soft_core_CPU_wrapper_top File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/Soft_core_CPU_wrapper_top.v Line: 1
+    Info (12023): Found entity 1: Soft_core_CPU_wrapper_top File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/Soft_core_CPU_wrapper_top.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file wrapper/pluse_gen_extra_delay.v
-    Info (12023): Found entity 1: pluse_gen_extra_delay File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/pluse_gen_extra_delay.v Line: 1
+    Info (12023): Found entity 1: pluse_gen_extra_delay File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/pluse_gen_extra_delay.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file wrapper/pluse_gen.v
-    Info (12023): Found entity 1: pluse_gen File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/pluse_gen.v Line: 1
+    Info (12023): Found entity 1: pluse_gen File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/pluse_gen.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file wrapper/output_display.v
-    Info (12023): Found entity 1: Soft_core_CPU_output_display File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/output_display.v Line: 1
+    Info (12023): Found entity 1: Soft_core_CPU_output_display File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/output_display.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file wrapper/hex27seg.v
-    Info (12023): Found entity 1: hex27seg File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/hex27seg.v Line: 1
+    Info (12023): Found entity 1: hex27seg File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/hex27seg.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file wrapper/cpu_en_ctrl.v
-    Info (12023): Found entity 1: CPU_EN_GEN File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/CPU_EN_CTRL.v Line: 1
+    Info (12023): Found entity 1: CPU_EN_GEN File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/CPU_EN_CTRL.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file arithmetic/shifter_32_bit.v
-    Info (12023): Found entity 1: Shifter_32_bit File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 8
+    Info (12023): Found entity 1: Shifter_32_bit File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file arithmetic/fulladder.v
-    Info (12023): Found entity 1: FullAdder File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/FullAdder.v Line: 8
+    Info (12023): Found entity 1: FullAdder File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/FullAdder.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file arithmetic/comparator.v
-    Info (12023): Found entity 1: Comparator File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Comparator.v Line: 8
+    Info (12023): Found entity 1: Comparator File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Comparator.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file arithmetic/adder.v
-    Info (12023): Found entity 1: Adder File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Adder.v Line: 8
+    Info (12023): Found entity 1: Adder File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Adder.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file base/logisimtickgenerator.v
-    Info (12023): Found entity 1: LogisimTickGenerator File: H:/FYP/Working/QUARTUS_FILE/Overall/base/LogisimTickGenerator.v Line: 8
+    Info (12023): Found entity 1: LogisimTickGenerator File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/base/LogisimTickGenerator.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file base/logisimclockcomponent.v
-    Info (12023): Found entity 1: LogisimClockComponent File: H:/FYP/Working/QUARTUS_FILE/Overall/base/LogisimClockComponent.v Line: 8
+    Info (12023): Found entity 1: LogisimClockComponent File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/base/LogisimClockComponent.v Line: 8
 Warning (12019): Can't analyze file -- file circuit/ROM_on_Quartus.v is missing
 Warning (12019): Can't analyze file -- file circuit/RAM_on_Quartus.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/ram_interface.v
-    Info (12023): Found entity 1: RAM_INTERFACE File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RAM_interface.v Line: 8
+    Info (12023): Found entity 1: RAM_INTERFACE File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RAM_interface.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/decoder_state_machine_combination_circuit.v
-    Info (12023): Found entity 1: Decoder_state_machine_combination_circuit File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/Decoder_state_machine_combination_circuit.v Line: 8
+    Info (12023): Found entity 1: Decoder_state_machine_combination_circuit File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/Decoder_state_machine_combination_circuit.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/decoder_alu_reg_ctrl.v
-    Info (12023): Found entity 1: Decoder_ALU_Reg_Ctrl File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/Decoder_ALU_Reg_Ctrl.v Line: 8
+    Info (12023): Found entity 1: Decoder_ALU_Reg_Ctrl File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/Decoder_ALU_Reg_Ctrl.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/cpu_reg.v
-    Info (12023): Found entity 1: CPU_REG File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_REG.v Line: 8
-Warning (10229): Verilog HDL Expression warning at CPU_main.v(127): truncated literal to match 32 bits File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 127
+    Info (12023): Found entity 1: CPU_REG File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_REG.v Line: 8
+Warning (10229): Verilog HDL Expression warning at CPU_main.v(127): truncated literal to match 32 bits File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 127
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/cpu_main.v
-    Info (12023): Found entity 1: CPU_main File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 8
+    Info (12023): Found entity 1: CPU_main File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/condition_reg.v
-    Info (12023): Found entity 1: Condition_Reg File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/Condition_Reg.v Line: 8
+    Info (12023): Found entity 1: Condition_Reg File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/Condition_Reg.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/cond_chk.v
-    Info (12023): Found entity 1: COND_CHK File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/COND_CHK.v Line: 8
+    Info (12023): Found entity 1: COND_CHK File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/COND_CHK.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/alu_right_shift.v
-    Info (12023): Found entity 1: ALU_RIGHT_SHIFT File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_RIGHT_SHIFT.v Line: 8
+    Info (12023): Found entity 1: ALU_RIGHT_SHIFT File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_RIGHT_SHIFT.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/alu_left_shift.v
-    Info (12023): Found entity 1: ALU_LEFT_SHIFT File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_LEFT_SHIFT.v Line: 8
+    Info (12023): Found entity 1: ALU_LEFT_SHIFT File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_LEFT_SHIFT.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/alu_enhanced.v
-    Info (12023): Found entity 1: ALU_enhanced File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_enhanced.v Line: 8
+    Info (12023): Found entity 1: ALU_enhanced File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_enhanced.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file circuit/alu_adder.v
-    Info (12023): Found entity 1: ALU_ADDER File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_ADDER.v Line: 8
+    Info (12023): Found entity 1: ALU_ADDER File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_ADDER.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/xor_gate_onehot.v
-    Info (12023): Found entity 1: XOR_GATE_ONEHOT File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/XOR_GATE_ONEHOT.v Line: 8
-Warning (10463): Verilog HDL Declaration warning at XOR_GATE_BUS_ONEHOT.v(51): "bit" is SystemVerilog-2005 keyword File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/XOR_GATE_BUS_ONEHOT.v Line: 51
+    Info (12023): Found entity 1: XOR_GATE_ONEHOT File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/XOR_GATE_ONEHOT.v Line: 8
+Warning (10463): Verilog HDL Declaration warning at XOR_GATE_BUS_ONEHOT.v(51): "bit" is SystemVerilog-2005 keyword File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/XOR_GATE_BUS_ONEHOT.v Line: 51
 Info (12021): Found 1 design units, including 1 entities, in source file gates/xor_gate_bus_onehot.v
-    Info (12023): Found entity 1: XOR_GATE_BUS_ONEHOT File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/XOR_GATE_BUS_ONEHOT.v Line: 8
+    Info (12023): Found entity 1: XOR_GATE_BUS_ONEHOT File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/XOR_GATE_BUS_ONEHOT.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_bus.v
-    Info (12023): Found entity 1: OR_GATE_BUS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_BUS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_BUS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_BUS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_17_inputs.v
-    Info (12023): Found entity 1: OR_GATE_17_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_17_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_17_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_17_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_9_inputs.v
-    Info (12023): Found entity 1: OR_GATE_9_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_9_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_9_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_9_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_7_inputs.v
-    Info (12023): Found entity 1: OR_GATE_7_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_7_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_7_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_7_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_6_inputs.v
-    Info (12023): Found entity 1: OR_GATE_6_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_6_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_6_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_6_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_5_inputs.v
-    Info (12023): Found entity 1: OR_GATE_5_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_5_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_5_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_5_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_4_inputs.v
-    Info (12023): Found entity 1: OR_GATE_4_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_4_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_4_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_4_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate_3_inputs.v
-    Info (12023): Found entity 1: OR_GATE_3_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_3_INPUTS.v Line: 8
+    Info (12023): Found entity 1: OR_GATE_3_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_3_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/or_gate.v
-    Info (12023): Found entity 1: OR_GATE File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE.v Line: 8
+    Info (12023): Found entity 1: OR_GATE File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/not_gate_bus.v
-    Info (12023): Found entity 1: NOT_GATE_BUS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NOT_GATE_BUS.v Line: 8
+    Info (12023): Found entity 1: NOT_GATE_BUS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NOT_GATE_BUS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/not_gate.v
-    Info (12023): Found entity 1: NOT_GATE File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NOT_GATE.v Line: 8
+    Info (12023): Found entity 1: NOT_GATE File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NOT_GATE.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/nand_gate_5_inputs.v
-    Info (12023): Found entity 1: NAND_GATE_5_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_5_INPUTS.v Line: 8
+    Info (12023): Found entity 1: NAND_GATE_5_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_5_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/nand_gate_4_inputs.v
-    Info (12023): Found entity 1: NAND_GATE_4_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_4_INPUTS.v Line: 8
+    Info (12023): Found entity 1: NAND_GATE_4_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_4_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/nand_gate_3_inputs.v
-    Info (12023): Found entity 1: NAND_GATE_3_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_3_INPUTS.v Line: 8
+    Info (12023): Found entity 1: NAND_GATE_3_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_3_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_bus.v
-    Info (12023): Found entity 1: AND_GATE_BUS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_BUS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_BUS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_BUS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_10_inputs.v
-    Info (12023): Found entity 1: AND_GATE_10_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_10_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_10_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_10_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_9_inputs.v
-    Info (12023): Found entity 1: AND_GATE_9_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_9_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_9_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_9_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_8_inputs.v
-    Info (12023): Found entity 1: AND_GATE_8_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_8_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_8_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_8_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_7_inputs.v
-    Info (12023): Found entity 1: AND_GATE_7_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_7_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_7_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_7_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_6_inputs.v
-    Info (12023): Found entity 1: AND_GATE_6_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_6_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_6_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_6_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_5_inputs.v
-    Info (12023): Found entity 1: AND_GATE_5_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_5_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_5_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_5_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_4_inputs.v
-    Info (12023): Found entity 1: AND_GATE_4_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_4_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_4_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_4_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate_3_inputs.v
-    Info (12023): Found entity 1: AND_GATE_3_INPUTS File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_3_INPUTS.v Line: 8
+    Info (12023): Found entity 1: AND_GATE_3_INPUTS File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_3_INPUTS.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file gates/and_gate.v
-    Info (12023): Found entity 1: AND_GATE File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE.v Line: 8
+    Info (12023): Found entity 1: AND_GATE File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file memory/register_flip_flop.v
-    Info (12023): Found entity 1: REGISTER_FLIP_FLOP File: H:/FYP/Working/QUARTUS_FILE/Overall/memory/REGISTER_FLIP_FLOP.v Line: 8
+    Info (12023): Found entity 1: REGISTER_FLIP_FLOP File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/memory/REGISTER_FLIP_FLOP.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file plexers/multiplexer_bus_16.v
-    Info (12023): Found entity 1: Multiplexer_bus_16 File: H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_16.v Line: 8
+    Info (12023): Found entity 1: Multiplexer_bus_16 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_16.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file plexers/multiplexer_bus_8.v
-    Info (12023): Found entity 1: Multiplexer_bus_8 File: H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_8.v Line: 8
+    Info (12023): Found entity 1: Multiplexer_bus_8 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_8.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file plexers/multiplexer_bus_4.v
-    Info (12023): Found entity 1: Multiplexer_bus_4 File: H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_4.v Line: 8
+    Info (12023): Found entity 1: Multiplexer_bus_4 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_4.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file plexers/multiplexer_bus_2.v
-    Info (12023): Found entity 1: Multiplexer_bus_2 File: H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_bus_2.v Line: 8
+    Info (12023): Found entity 1: Multiplexer_bus_2 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_bus_2.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file plexers/multiplexer_2.v
-    Info (12023): Found entity 1: Multiplexer_2 File: H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Multiplexer_2.v Line: 8
+    Info (12023): Found entity 1: Multiplexer_2 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Multiplexer_2.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file plexers/decoder_16.v
-    Info (12023): Found entity 1: Decoder_16 File: H:/FYP/Working/QUARTUS_FILE/Overall/plexers/Decoder_16.v Line: 8
+    Info (12023): Found entity 1: Decoder_16 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/plexers/Decoder_16.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file toplevel/logisimtoplevelshell.v
-    Info (12023): Found entity 1: LogisimToplevelShell File: H:/FYP/Working/QUARTUS_FILE/Overall/toplevel/LogisimToplevelShell.v Line: 8
+    Info (12023): Found entity 1: LogisimToplevelShell File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/toplevel/LogisimToplevelShell.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file toplevel/processor_top_shell.v
-    Info (12023): Found entity 1: processor_top_shell File: H:/FYP/Working/QUARTUS_FILE/Overall/toplevel/processor_top_shell.v Line: 1
+    Info (12023): Found entity 1: processor_top_shell File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/toplevel/processor_top_shell.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file wrapper/en_buff.v
-    Info (12023): Found entity 1: en_buffer File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/EN_BUFF.v Line: 1
+    Info (12023): Found entity 1: en_buffer File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/EN_BUFF.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file rom_cpu.v
-    Info (12023): Found entity 1: ROM_CPU File: H:/FYP/Working/QUARTUS_FILE/Overall/ROM_CPU.v Line: 40
+    Info (12023): Found entity 1: ROM_CPU File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_CPU.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file ram_cpu.v
-    Info (12023): Found entity 1: RAM_CPU File: H:/FYP/Working/QUARTUS_FILE/Overall/RAM_CPU.v Line: 40
+    Info (12023): Found entity 1: RAM_CPU File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_CPU.v Line: 40
 Info (12127): Elaborating entity "processor_top_shell" for the top level hierarchy
-Info (12128): Elaborating entity "LogisimTickGenerator" for hierarchy "LogisimTickGenerator:LogisimTickGenerator_0" File: H:/FYP/Working/QUARTUS_FILE/Overall/toplevel/processor_top_shell.v Line: 50
-Warning (10230): Verilog HDL assignment warning at LogisimTickGenerator.v(46): truncated value with size 32 to match size of target (26) File: H:/FYP/Working/QUARTUS_FILE/Overall/base/LogisimTickGenerator.v Line: 46
-Info (12128): Elaborating entity "LogisimClockComponent" for hierarchy "LogisimClockComponent:CLOCKGEN_0" File: H:/FYP/Working/QUARTUS_FILE/Overall/toplevel/processor_top_shell.v Line: 57
-Warning (10230): Verilog HDL assignment warning at LogisimClockComponent.v(57): truncated value with size 32 to match size of target (1) File: H:/FYP/Working/QUARTUS_FILE/Overall/base/LogisimClockComponent.v Line: 57
-Info (12128): Elaborating entity "Soft_core_CPU_wrapper_top" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper" File: H:/FYP/Working/QUARTUS_FILE/Overall/toplevel/processor_top_shell.v Line: 76
-Info (12128): Elaborating entity "hex27seg" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|hex27seg:PC_display1" File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/Soft_core_CPU_wrapper_top.v Line: 31
-Info (12128): Elaborating entity "pluse_gen_extra_delay" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|pluse_gen_extra_delay:pluse_gen_extra_delay" File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/Soft_core_CPU_wrapper_top.v Line: 40
-Info (12128): Elaborating entity "Soft_core_CPU_output_display" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|Soft_core_CPU_output_display:CPU_output_display" File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/Soft_core_CPU_wrapper_top.v Line: 42
-Info (12128): Elaborating entity "CPU_EN_GEN" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|CPU_EN_GEN:CPU_EN_GENERATOR" File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/Soft_core_CPU_wrapper_top.v Line: 47
-Warning (10235): Verilog HDL Always Construct warning at CPU_EN_CTRL.v(35): variable "CPU_EN_BUFF" is read inside the Always Construct but isn't in the Always Construct's Event Control File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/CPU_EN_CTRL.v Line: 35
-Info (12128): Elaborating entity "pluse_gen" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|CPU_EN_GEN:CPU_EN_GENERATOR|pluse_gen:ONCE_CPU_EN_pulse_gen" File: H:/FYP/Working/QUARTUS_FILE/Overall/wrapper/CPU_EN_CTRL.v Line: 23
-Info (12128): Elaborating entity "CPU_main" for hierarchy "CPU_main:CPU_main_0" File: H:/FYP/Working/QUARTUS_FILE/Overall/toplevel/processor_top_shell.v Line: 85
-Info (12128): Elaborating entity "Multiplexer_bus_2" for hierarchy "CPU_main:CPU_main_0|Multiplexer_bus_2:MUX_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 140
-Info (12128): Elaborating entity "Adder" for hierarchy "CPU_main:CPU_main_0|Adder:ADDER2C_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 148
-Info (12128): Elaborating entity "Multiplexer_bus_2" for hierarchy "CPU_main:CPU_main_0|Multiplexer_bus_2:MUX_3" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 162
-Info (12128): Elaborating entity "NAND_GATE_4_INPUTS" for hierarchy "CPU_main:CPU_main_0|NAND_GATE_4_INPUTS:GATE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 169
-Warning (10230): Verilog HDL assignment warning at NAND_GATE_4_INPUTS.v(46): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_4_INPUTS.v Line: 46
-Info (12128): Elaborating entity "Multiplexer_bus_4" for hierarchy "CPU_main:CPU_main_0|Multiplexer_bus_4:MUX_4" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 178
-Info (12128): Elaborating entity "ALU" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 189
-Info (12128): Elaborating entity "Multiplexer_bus_8" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|Multiplexer_bus_8:MUX_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 101
-Info (12128): Elaborating entity "Comparator" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|Comparator:Comparator_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 109
-Info (12128): Elaborating entity "AND_GATE_BUS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|AND_GATE_BUS:GATE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 115
-Warning (10230): Verilog HDL assignment warning at AND_GATE_BUS.v(41): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_BUS.v Line: 41
-Info (12128): Elaborating entity "XOR_GATE_BUS_ONEHOT" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|XOR_GATE_BUS_ONEHOT:GATE_2" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 121
-Warning (10230): Verilog HDL assignment warning at XOR_GATE_BUS_ONEHOT.v(41): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/XOR_GATE_BUS_ONEHOT.v Line: 41
-Info (12128): Elaborating entity "OR_GATE_BUS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|OR_GATE_BUS:GATE_3" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 134
-Warning (10230): Verilog HDL assignment warning at OR_GATE_BUS.v(41): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_BUS.v Line: 41
-Info (12128): Elaborating entity "Multiplexer_2" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|Multiplexer_2:MUX_3" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 140
-Info (12128): Elaborating entity "NOT_GATE_BUS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|NOT_GATE_BUS:GATE_4" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 144
-Info (12128): Elaborating entity "AND_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|AND_GATE_5_INPUTS:GATE_5" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 152
-Warning (10230): Verilog HDL assignment warning at AND_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_5_INPUTS.v Line: 49
-Info (12128): Elaborating entity "RIGHT_SHIFT_BLOCK" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 164
-Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RIGHT_SHIFT_BLOCK.v Line: 131
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 57
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 70
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 87
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 104
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 121
-Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_2" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RIGHT_SHIFT_BLOCK.v Line: 136
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 57
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 70
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 87
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 104
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 121
-Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_3" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RIGHT_SHIFT_BLOCK.v Line: 150
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 57
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 70
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 87
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 104
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 121
-Info (12128): Elaborating entity "ALU_ADDER" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 174
-Info (12128): Elaborating entity "XOR_GATE_ONEHOT" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|XOR_GATE_ONEHOT:GATE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_ADDER.v Line: 78
-Warning (10230): Verilog HDL assignment warning at XOR_GATE_ONEHOT.v(40): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/XOR_GATE_ONEHOT.v Line: 40
-Info (12128): Elaborating entity "NOT_GATE" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|NOT_GATE:GATE_3" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_ADDER.v Line: 85
-Info (12128): Elaborating entity "FullAdder" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|FullAdder:ADDER2C_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_ADDER.v Line: 96
-Info (12128): Elaborating entity "Adder" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|Adder:ADDER2C_2" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_ADDER.v Line: 124
-Info (12128): Elaborating entity "OR_GATE" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|OR_GATE:GATE_5" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU_ADDER.v Line: 129
-Warning (10230): Verilog HDL assignment warning at OR_GATE.v(40): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE.v Line: 40
-Info (12128): Elaborating entity "LEFT_SHIFT_BLOCK" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|LEFT_SHIFT_BLOCK:LEFT_SHIFT_BLOCK_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/ALU.v Line: 180
-Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|LEFT_SHIFT_BLOCK:LEFT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/LEFT_SHIFT_BLOCK.v Line: 56
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 57
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 70
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 87
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 104
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 121
-Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|LEFT_SHIFT_BLOCK:LEFT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_2" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/LEFT_SHIFT_BLOCK.v Line: 61
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 57
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 70
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 87
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 104
-Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: H:/FYP/Working/QUARTUS_FILE/Overall/arithmetic/Shifter_32_bit.v Line: 121
-Info (12128): Elaborating entity "PROCESSOR_CTRL_UNIT" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 208
-Info (12128): Elaborating entity "PC_RAM_DECODER" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PROCESSOR_CTRL_UNIT.v Line: 112
-Info (12128): Elaborating entity "AND_GATE_4_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE_4_INPUTS:GATE_3" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PC_RAM_DECODER.v Line: 86
-Warning (10230): Verilog HDL assignment warning at AND_GATE_4_INPUTS.v(46): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_4_INPUTS.v Line: 46
-Info (12128): Elaborating entity "AND_GATE_3_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE_3_INPUTS:GATE_4" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PC_RAM_DECODER.v Line: 92
-Warning (10230): Verilog HDL assignment warning at AND_GATE_3_INPUTS.v(43): truncated value with size 32 to match size of target (3) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_3_INPUTS.v Line: 43
-Info (12128): Elaborating entity "AND_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE_5_INPUTS:GATE_6" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PC_RAM_DECODER.v Line: 103
-Warning (10230): Verilog HDL assignment warning at AND_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_5_INPUTS.v Line: 49
-Info (12128): Elaborating entity "AND_GATE" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE:GATE_7" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PC_RAM_DECODER.v Line: 108
-Warning (10230): Verilog HDL assignment warning at AND_GATE.v(40): truncated value with size 32 to match size of target (2) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE.v Line: 40
-Info (12128): Elaborating entity "COND_FLAG_CHK" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|COND_FLAG_CHK:COND_FLAG_CHK_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PROCESSOR_CTRL_UNIT.v Line: 117
-Info (12128): Elaborating entity "AND_GATE_6_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|COND_FLAG_CHK:COND_FLAG_CHK_1|AND_GATE_6_INPUTS:GATE_16" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/COND_FLAG_CHK.v Line: 184
-Warning (10230): Verilog HDL assignment warning at AND_GATE_6_INPUTS.v(52): truncated value with size 32 to match size of target (6) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_6_INPUTS.v Line: 52
-Info (12128): Elaborating entity "OR_GATE_18_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|COND_FLAG_CHK:COND_FLAG_CHK_1|OR_GATE_18_INPUTS:GATE_19" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/COND_FLAG_CHK.v Line: 216
-Warning (10230): Verilog HDL assignment warning at OR_GATE_18_INPUTS.v(88): truncated value with size 32 to match size of target (18) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_18_INPUTS.v Line: 88
-Info (12128): Elaborating entity "CTRL_DECODER" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PROCESSOR_CTRL_UNIT.v Line: 130
-Info (12128): Elaborating entity "OR_GATE_7_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_7_INPUTS:GATE_7" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 358
-Warning (10230): Verilog HDL assignment warning at OR_GATE_7_INPUTS.v(55): truncated value with size 32 to match size of target (7) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_7_INPUTS.v Line: 55
-Info (12128): Elaborating entity "AND_GATE_9_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_9_INPUTS:GATE_14" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 392
-Warning (10230): Verilog HDL assignment warning at AND_GATE_9_INPUTS.v(61): truncated value with size 32 to match size of target (9) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_9_INPUTS.v Line: 61
-Info (12128): Elaborating entity "NAND_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|NAND_GATE_5_INPUTS:GATE_26" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 442
-Warning (10230): Verilog HDL assignment warning at NAND_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_5_INPUTS.v Line: 49
-Info (12128): Elaborating entity "Multiplexer_bus_4" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|Multiplexer_bus_4:MUX_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 463
-Info (12128): Elaborating entity "AND_GATE_8_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_8_INPUTS:GATE_35" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 491
-Warning (10230): Verilog HDL assignment warning at AND_GATE_8_INPUTS.v(58): truncated value with size 32 to match size of target (8) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_8_INPUTS.v Line: 58
-Info (12128): Elaborating entity "AND_GATE_7_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_7_INPUTS:GATE_49" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 557
-Warning (10230): Verilog HDL assignment warning at AND_GATE_7_INPUTS.v(55): truncated value with size 32 to match size of target (7) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_7_INPUTS.v Line: 55
-Info (12128): Elaborating entity "OR_GATE_3_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_3_INPUTS:GATE_100" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 769
-Warning (10230): Verilog HDL assignment warning at OR_GATE_3_INPUTS.v(43): truncated value with size 32 to match size of target (3) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_3_INPUTS.v Line: 43
-Info (12128): Elaborating entity "NAND_GATE_3_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|NAND_GATE_3_INPUTS:GATE_114" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 833
-Warning (10230): Verilog HDL assignment warning at NAND_GATE_3_INPUTS.v(43): truncated value with size 32 to match size of target (3) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/NAND_GATE_3_INPUTS.v Line: 43
-Info (12128): Elaborating entity "AND_GATE_10_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_10_INPUTS:GATE_131" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 920
-Warning (10230): Verilog HDL assignment warning at AND_GATE_10_INPUTS.v(64): truncated value with size 32 to match size of target (10) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/AND_GATE_10_INPUTS.v Line: 64
-Info (12128): Elaborating entity "OR_GATE_9_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_9_INPUTS:GATE_137" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 950
-Warning (10230): Verilog HDL assignment warning at OR_GATE_9_INPUTS.v(61): truncated value with size 32 to match size of target (9) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_9_INPUTS.v Line: 61
-Info (12128): Elaborating entity "OR_GATE_4_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_4_INPUTS:GATE_185" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 1200
-Warning (10230): Verilog HDL assignment warning at OR_GATE_4_INPUTS.v(46): truncated value with size 32 to match size of target (4) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_4_INPUTS.v Line: 46
-Info (12128): Elaborating entity "OR_GATE_6_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_6_INPUTS:GATE_243" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CTRL_DECODER.v Line: 1449
-Warning (10230): Verilog HDL assignment warning at OR_GATE_6_INPUTS.v(52): truncated value with size 32 to match size of target (6) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_6_INPUTS.v Line: 52
-Info (12128): Elaborating entity "FLAG_REGISTER" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|FLAG_REGISTER:FLAG_REGISTER_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PROCESSOR_CTRL_UNIT.v Line: 137
-Warning (10036): Verilog HDL or VHDL warning at FLAG_REGISTER.v(35): object "s_LOGISIM_NET_0" assigned a value but never read File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/FLAG_REGISTER.v Line: 35
-Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|FLAG_REGISTER:FLAG_REGISTER_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/FLAG_REGISTER.v Line: 62
-Info (12128): Elaborating entity "State_machine" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|State_machine:State_machine_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/PROCESSOR_CTRL_UNIT.v Line: 145
-Warning (10036): Verilog HDL or VHDL warning at State_machine.v(88): object "s_LOGISIM_NET_69" assigned a value but never read File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/State_machine.v Line: 88
-Info (12128): Elaborating entity "OR_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|State_machine:State_machine_1|OR_GATE_5_INPUTS:GATE_34" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/State_machine.v Line: 320
-Warning (10230): Verilog HDL assignment warning at OR_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: H:/FYP/Working/QUARTUS_FILE/Overall/gates/OR_GATE_5_INPUTS.v Line: 49
-Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|State_machine:State_machine_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/State_machine.v Line: 515
-Info (12128): Elaborating entity "CPU_REGISTERS" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 222
-Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_REGISTERS.v Line: 120
-Info (12128): Elaborating entity "Decoder_16" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1|Decoder_16:DECODER_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_REGISTERS.v Line: 220
-Info (12128): Elaborating entity "Multiplexer_bus_16" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1|Multiplexer_bus_16:MUX_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_REGISTERS.v Line: 241
-Info (12128): Elaborating entity "ROM_QUARTUS_16" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 228
-Info (12128): Elaborating entity "ROM_CPU" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/ROM_QUARTUS_16.v Line: 54
-Info (12128): Elaborating entity "altsyncram" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component" File: H:/FYP/Working/QUARTUS_FILE/Overall/ROM_CPU.v Line: 85
-Info (12130): Elaborated megafunction instantiation "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component" File: H:/FYP/Working/QUARTUS_FILE/Overall/ROM_CPU.v Line: 85
-Info (12133): Instantiated megafunction "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component" with the following parameter: File: H:/FYP/Working/QUARTUS_FILE/Overall/ROM_CPU.v Line: 85
+Info (12128): Elaborating entity "LogisimTickGenerator" for hierarchy "LogisimTickGenerator:LogisimTickGenerator_0" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/toplevel/processor_top_shell.v Line: 50
+Warning (10230): Verilog HDL assignment warning at LogisimTickGenerator.v(46): truncated value with size 32 to match size of target (26) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/base/LogisimTickGenerator.v Line: 46
+Info (12128): Elaborating entity "LogisimClockComponent" for hierarchy "LogisimClockComponent:CLOCKGEN_0" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/toplevel/processor_top_shell.v Line: 57
+Warning (10230): Verilog HDL assignment warning at LogisimClockComponent.v(57): truncated value with size 32 to match size of target (1) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/base/LogisimClockComponent.v Line: 57
+Info (12128): Elaborating entity "Soft_core_CPU_wrapper_top" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/toplevel/processor_top_shell.v Line: 76
+Info (12128): Elaborating entity "hex27seg" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|hex27seg:PC_display1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/Soft_core_CPU_wrapper_top.v Line: 31
+Info (12128): Elaborating entity "pluse_gen_extra_delay" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|pluse_gen_extra_delay:pluse_gen_extra_delay" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/Soft_core_CPU_wrapper_top.v Line: 40
+Info (12128): Elaborating entity "Soft_core_CPU_output_display" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|Soft_core_CPU_output_display:CPU_output_display" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/Soft_core_CPU_wrapper_top.v Line: 42
+Info (12128): Elaborating entity "CPU_EN_GEN" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|CPU_EN_GEN:CPU_EN_GENERATOR" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/Soft_core_CPU_wrapper_top.v Line: 47
+Warning (10235): Verilog HDL Always Construct warning at CPU_EN_CTRL.v(35): variable "CPU_EN_BUFF" is read inside the Always Construct but isn't in the Always Construct's Event Control File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/CPU_EN_CTRL.v Line: 35
+Info (12128): Elaborating entity "pluse_gen" for hierarchy "Soft_core_CPU_wrapper_top:CPU_wrapper|CPU_EN_GEN:CPU_EN_GENERATOR|pluse_gen:ONCE_CPU_EN_pulse_gen" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/wrapper/CPU_EN_CTRL.v Line: 23
+Info (12128): Elaborating entity "CPU_main" for hierarchy "CPU_main:CPU_main_0" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/toplevel/processor_top_shell.v Line: 85
+Info (12128): Elaborating entity "Multiplexer_bus_2" for hierarchy "CPU_main:CPU_main_0|Multiplexer_bus_2:MUX_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 140
+Info (12128): Elaborating entity "Adder" for hierarchy "CPU_main:CPU_main_0|Adder:ADDER2C_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 148
+Info (12128): Elaborating entity "Multiplexer_bus_2" for hierarchy "CPU_main:CPU_main_0|Multiplexer_bus_2:MUX_3" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 162
+Info (12128): Elaborating entity "NAND_GATE_4_INPUTS" for hierarchy "CPU_main:CPU_main_0|NAND_GATE_4_INPUTS:GATE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 169
+Warning (10230): Verilog HDL assignment warning at NAND_GATE_4_INPUTS.v(46): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_4_INPUTS.v Line: 46
+Info (12128): Elaborating entity "Multiplexer_bus_4" for hierarchy "CPU_main:CPU_main_0|Multiplexer_bus_4:MUX_4" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 178
+Info (12128): Elaborating entity "ALU" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 189
+Info (12128): Elaborating entity "Multiplexer_bus_8" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|Multiplexer_bus_8:MUX_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 101
+Info (12128): Elaborating entity "Comparator" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|Comparator:Comparator_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 109
+Info (12128): Elaborating entity "AND_GATE_BUS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|AND_GATE_BUS:GATE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 115
+Warning (10230): Verilog HDL assignment warning at AND_GATE_BUS.v(41): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_BUS.v Line: 41
+Info (12128): Elaborating entity "XOR_GATE_BUS_ONEHOT" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|XOR_GATE_BUS_ONEHOT:GATE_2" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 121
+Warning (10230): Verilog HDL assignment warning at XOR_GATE_BUS_ONEHOT.v(41): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/XOR_GATE_BUS_ONEHOT.v Line: 41
+Info (12128): Elaborating entity "OR_GATE_BUS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|OR_GATE_BUS:GATE_3" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 134
+Warning (10230): Verilog HDL assignment warning at OR_GATE_BUS.v(41): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_BUS.v Line: 41
+Info (12128): Elaborating entity "Multiplexer_2" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|Multiplexer_2:MUX_3" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 140
+Info (12128): Elaborating entity "NOT_GATE_BUS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|NOT_GATE_BUS:GATE_4" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 144
+Info (12128): Elaborating entity "AND_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|AND_GATE_5_INPUTS:GATE_5" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 152
+Warning (10230): Verilog HDL assignment warning at AND_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_5_INPUTS.v Line: 49
+Info (12128): Elaborating entity "RIGHT_SHIFT_BLOCK" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 164
+Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RIGHT_SHIFT_BLOCK.v Line: 131
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 57
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 70
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 87
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 104
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 121
+Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_2" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RIGHT_SHIFT_BLOCK.v Line: 136
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 57
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 70
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 87
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 104
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 121
+Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|RIGHT_SHIFT_BLOCK:RIGHT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_3" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RIGHT_SHIFT_BLOCK.v Line: 150
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 57
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 70
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 87
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 104
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 121
+Info (12128): Elaborating entity "ALU_ADDER" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 174
+Info (12128): Elaborating entity "XOR_GATE_ONEHOT" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|XOR_GATE_ONEHOT:GATE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_ADDER.v Line: 78
+Warning (10230): Verilog HDL assignment warning at XOR_GATE_ONEHOT.v(40): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/XOR_GATE_ONEHOT.v Line: 40
+Info (12128): Elaborating entity "NOT_GATE" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|NOT_GATE:GATE_3" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_ADDER.v Line: 85
+Info (12128): Elaborating entity "FullAdder" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|FullAdder:ADDER2C_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_ADDER.v Line: 96
+Info (12128): Elaborating entity "Adder" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|Adder:ADDER2C_2" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_ADDER.v Line: 124
+Info (12128): Elaborating entity "OR_GATE" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|ALU_ADDER:ALU_ADDER_1|OR_GATE:GATE_5" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU_ADDER.v Line: 129
+Warning (10230): Verilog HDL assignment warning at OR_GATE.v(40): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE.v Line: 40
+Info (12128): Elaborating entity "LEFT_SHIFT_BLOCK" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|LEFT_SHIFT_BLOCK:LEFT_SHIFT_BLOCK_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/ALU.v Line: 180
+Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|LEFT_SHIFT_BLOCK:LEFT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/LEFT_SHIFT_BLOCK.v Line: 56
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 57
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 70
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 87
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 104
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 121
+Info (12128): Elaborating entity "Shifter_32_bit" for hierarchy "CPU_main:CPU_main_0|ALU:ALU_1|LEFT_SHIFT_BLOCK:LEFT_SHIFT_BLOCK_1|Shifter_32_bit:Shifter_2" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/LEFT_SHIFT_BLOCK.v Line: 61
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(57): truncated value with size 32 to match size of target (1) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 57
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(70): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 70
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(87): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 87
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(104): truncated value with size 32 to match size of target (8) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 104
+Warning (10230): Verilog HDL assignment warning at Shifter_32_bit.v(121): truncated value with size 32 to match size of target (16) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/arithmetic/Shifter_32_bit.v Line: 121
+Info (12128): Elaborating entity "PROCESSOR_CTRL_UNIT" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 208
+Info (12128): Elaborating entity "PC_RAM_DECODER" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PROCESSOR_CTRL_UNIT.v Line: 112
+Info (12128): Elaborating entity "AND_GATE_4_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE_4_INPUTS:GATE_3" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PC_RAM_DECODER.v Line: 86
+Warning (10230): Verilog HDL assignment warning at AND_GATE_4_INPUTS.v(46): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_4_INPUTS.v Line: 46
+Info (12128): Elaborating entity "AND_GATE_3_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE_3_INPUTS:GATE_4" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PC_RAM_DECODER.v Line: 92
+Warning (10230): Verilog HDL assignment warning at AND_GATE_3_INPUTS.v(43): truncated value with size 32 to match size of target (3) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_3_INPUTS.v Line: 43
+Info (12128): Elaborating entity "AND_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE_5_INPUTS:GATE_6" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PC_RAM_DECODER.v Line: 103
+Warning (10230): Verilog HDL assignment warning at AND_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_5_INPUTS.v Line: 49
+Info (12128): Elaborating entity "AND_GATE" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|PC_RAM_DECODER:PC_RAM_DECODER_1|AND_GATE:GATE_7" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PC_RAM_DECODER.v Line: 108
+Warning (10230): Verilog HDL assignment warning at AND_GATE.v(40): truncated value with size 32 to match size of target (2) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE.v Line: 40
+Info (12128): Elaborating entity "COND_FLAG_CHK" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|COND_FLAG_CHK:COND_FLAG_CHK_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PROCESSOR_CTRL_UNIT.v Line: 117
+Info (12128): Elaborating entity "AND_GATE_6_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|COND_FLAG_CHK:COND_FLAG_CHK_1|AND_GATE_6_INPUTS:GATE_16" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/COND_FLAG_CHK.v Line: 184
+Warning (10230): Verilog HDL assignment warning at AND_GATE_6_INPUTS.v(52): truncated value with size 32 to match size of target (6) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_6_INPUTS.v Line: 52
+Info (12128): Elaborating entity "OR_GATE_18_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|COND_FLAG_CHK:COND_FLAG_CHK_1|OR_GATE_18_INPUTS:GATE_19" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/COND_FLAG_CHK.v Line: 216
+Warning (10230): Verilog HDL assignment warning at OR_GATE_18_INPUTS.v(88): truncated value with size 32 to match size of target (18) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_18_INPUTS.v Line: 88
+Info (12128): Elaborating entity "CTRL_DECODER" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PROCESSOR_CTRL_UNIT.v Line: 130
+Info (12128): Elaborating entity "OR_GATE_7_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_7_INPUTS:GATE_7" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 358
+Warning (10230): Verilog HDL assignment warning at OR_GATE_7_INPUTS.v(55): truncated value with size 32 to match size of target (7) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_7_INPUTS.v Line: 55
+Info (12128): Elaborating entity "AND_GATE_9_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_9_INPUTS:GATE_14" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 392
+Warning (10230): Verilog HDL assignment warning at AND_GATE_9_INPUTS.v(61): truncated value with size 32 to match size of target (9) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_9_INPUTS.v Line: 61
+Info (12128): Elaborating entity "NAND_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|NAND_GATE_5_INPUTS:GATE_26" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 442
+Warning (10230): Verilog HDL assignment warning at NAND_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_5_INPUTS.v Line: 49
+Info (12128): Elaborating entity "Multiplexer_bus_4" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|Multiplexer_bus_4:MUX_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 463
+Info (12128): Elaborating entity "AND_GATE_8_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_8_INPUTS:GATE_35" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 491
+Warning (10230): Verilog HDL assignment warning at AND_GATE_8_INPUTS.v(58): truncated value with size 32 to match size of target (8) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_8_INPUTS.v Line: 58
+Info (12128): Elaborating entity "AND_GATE_7_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_7_INPUTS:GATE_49" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 557
+Warning (10230): Verilog HDL assignment warning at AND_GATE_7_INPUTS.v(55): truncated value with size 32 to match size of target (7) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_7_INPUTS.v Line: 55
+Info (12128): Elaborating entity "OR_GATE_3_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_3_INPUTS:GATE_100" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 769
+Warning (10230): Verilog HDL assignment warning at OR_GATE_3_INPUTS.v(43): truncated value with size 32 to match size of target (3) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_3_INPUTS.v Line: 43
+Info (12128): Elaborating entity "NAND_GATE_3_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|NAND_GATE_3_INPUTS:GATE_114" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 833
+Warning (10230): Verilog HDL assignment warning at NAND_GATE_3_INPUTS.v(43): truncated value with size 32 to match size of target (3) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/NAND_GATE_3_INPUTS.v Line: 43
+Info (12128): Elaborating entity "AND_GATE_10_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|AND_GATE_10_INPUTS:GATE_131" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 920
+Warning (10230): Verilog HDL assignment warning at AND_GATE_10_INPUTS.v(64): truncated value with size 32 to match size of target (10) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/AND_GATE_10_INPUTS.v Line: 64
+Info (12128): Elaborating entity "OR_GATE_9_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_9_INPUTS:GATE_137" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 950
+Warning (10230): Verilog HDL assignment warning at OR_GATE_9_INPUTS.v(61): truncated value with size 32 to match size of target (9) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_9_INPUTS.v Line: 61
+Info (12128): Elaborating entity "OR_GATE_4_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_4_INPUTS:GATE_185" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 1200
+Warning (10230): Verilog HDL assignment warning at OR_GATE_4_INPUTS.v(46): truncated value with size 32 to match size of target (4) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_4_INPUTS.v Line: 46
+Info (12128): Elaborating entity "OR_GATE_6_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|CTRL_DECODER:CTRL_DECODER_1|OR_GATE_6_INPUTS:GATE_243" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CTRL_DECODER.v Line: 1449
+Warning (10230): Verilog HDL assignment warning at OR_GATE_6_INPUTS.v(52): truncated value with size 32 to match size of target (6) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_6_INPUTS.v Line: 52
+Info (12128): Elaborating entity "FLAG_REGISTER" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|FLAG_REGISTER:FLAG_REGISTER_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PROCESSOR_CTRL_UNIT.v Line: 137
+Warning (10036): Verilog HDL or VHDL warning at FLAG_REGISTER.v(35): object "s_LOGISIM_NET_0" assigned a value but never read File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/FLAG_REGISTER.v Line: 35
+Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|FLAG_REGISTER:FLAG_REGISTER_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/FLAG_REGISTER.v Line: 62
+Info (12128): Elaborating entity "State_machine" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|State_machine:State_machine_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/PROCESSOR_CTRL_UNIT.v Line: 145
+Warning (10036): Verilog HDL or VHDL warning at State_machine.v(88): object "s_LOGISIM_NET_69" assigned a value but never read File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/State_machine.v Line: 88
+Info (12128): Elaborating entity "OR_GATE_5_INPUTS" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|State_machine:State_machine_1|OR_GATE_5_INPUTS:GATE_34" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/State_machine.v Line: 320
+Warning (10230): Verilog HDL assignment warning at OR_GATE_5_INPUTS.v(49): truncated value with size 32 to match size of target (5) File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/gates/OR_GATE_5_INPUTS.v Line: 49
+Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|PROCESSOR_CTRL_UNIT:PROCESSOR_CTRL_UNIT_1|State_machine:State_machine_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/State_machine.v Line: 515
+Info (12128): Elaborating entity "CPU_REGISTERS" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 222
+Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_REGISTERS.v Line: 120
+Info (12128): Elaborating entity "Decoder_16" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1|Decoder_16:DECODER_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_REGISTERS.v Line: 220
+Info (12128): Elaborating entity "Multiplexer_bus_16" for hierarchy "CPU_main:CPU_main_0|CPU_REGISTERS:CPU_REGISTERS_1|Multiplexer_bus_16:MUX_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_REGISTERS.v Line: 241
+Info (12128): Elaborating entity "ROM_QUARTUS_16" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 228
+Info (12128): Elaborating entity "ROM_CPU" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_QUARTUS_16.v Line: 54
+Info (12128): Elaborating entity "altsyncram" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_CPU.v Line: 85
+Info (12130): Elaborated megafunction instantiation "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_CPU.v Line: 85
+Info (12133): Instantiated megafunction "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component" with the following parameter: File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/ROM_CPU.v Line: 85
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "NORMAL"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
@@ -3200,13 +3200,13 @@ Info (12133): Instantiated megafunction "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_
     Info (12134): Parameter "width_a" = "32"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_06h1.tdf
-    Info (12023): Found entity 1: altsyncram_06h1 File: H:/FYP/Working/QUARTUS_FILE/Overall/db/altsyncram_06h1.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_06h1" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component|altsyncram_06h1:auto_generated" File: c:/altera/16.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "RAM_QUARTUS_16" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 236
-Info (12128): Elaborating entity "RAM_CPU" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/RAM_QUARTUS_16.v Line: 65
-Info (12128): Elaborating entity "altsyncram" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component" File: H:/FYP/Working/QUARTUS_FILE/Overall/RAM_CPU.v Line: 92
-Info (12130): Elaborated megafunction instantiation "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component" File: H:/FYP/Working/QUARTUS_FILE/Overall/RAM_CPU.v Line: 92
-Info (12133): Instantiated megafunction "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component" with the following parameter: File: H:/FYP/Working/QUARTUS_FILE/Overall/RAM_CPU.v Line: 92
+    Info (12023): Found entity 1: altsyncram_06h1 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/db/altsyncram_06h1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_06h1" for hierarchy "CPU_main:CPU_main_0|ROM_QUARTUS_16:ROM_QUARTUS_16_1|ROM_CPU:ROM_CPU_1|altsyncram:altsyncram_component|altsyncram_06h1:auto_generated" File: d:/altera/16.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12128): Elaborating entity "RAM_QUARTUS_16" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 236
+Info (12128): Elaborating entity "RAM_CPU" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_QUARTUS_16.v Line: 65
+Info (12128): Elaborating entity "altsyncram" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_CPU.v Line: 92
+Info (12130): Elaborated megafunction instantiation "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_CPU.v Line: 92
+Info (12133): Instantiated megafunction "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component" with the following parameter: File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/RAM_CPU.v Line: 92
     Info (12134): Parameter "address_aclr_b" = "CLEAR0"
     Info (12134): Parameter "address_reg_b" = "CLOCK0"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
@@ -3227,12 +3227,12 @@ Info (12133): Instantiated megafunction "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_
     Info (12134): Parameter "width_b" = "32"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_3dv1.tdf
-    Info (12023): Found entity 1: altsyncram_3dv1 File: H:/FYP/Working/QUARTUS_FILE/Overall/db/altsyncram_3dv1.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_3dv1" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component|altsyncram_3dv1:auto_generated" File: c:/altera/16.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "RAM_INTERFACE" for hierarchy "CPU_main:CPU_main_0|RAM_INTERFACE:RAM_INTERFACE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/CPU_main.v Line: 243
-Warning (10036): Verilog HDL or VHDL warning at RAM_interface.v(37): object "s_LOGISIM_NET_7" assigned a value but never read File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RAM_interface.v Line: 37
-Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|RAM_INTERFACE:RAM_INTERFACE_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RAM_interface.v Line: 69
-Info (12128): Elaborating entity "Multiplexer_bus_2" for hierarchy "CPU_main:CPU_main_0|RAM_INTERFACE:RAM_INTERFACE_1|Multiplexer_bus_2:MUX_1" File: H:/FYP/Working/QUARTUS_FILE/Overall/circuit/RAM_interface.v Line: 76
+    Info (12023): Found entity 1: altsyncram_3dv1 File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/db/altsyncram_3dv1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_3dv1" for hierarchy "CPU_main:CPU_main_0|RAM_QUARTUS_16:RAM_QUARTUS_16_1|RAM_CPU:RAM_CPU_1|altsyncram:altsyncram_component|altsyncram_3dv1:auto_generated" File: d:/altera/16.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12128): Elaborating entity "RAM_INTERFACE" for hierarchy "CPU_main:CPU_main_0|RAM_INTERFACE:RAM_INTERFACE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/CPU_main.v Line: 243
+Warning (10036): Verilog HDL or VHDL warning at RAM_interface.v(37): object "s_LOGISIM_NET_7" assigned a value but never read File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RAM_interface.v Line: 37
+Info (12128): Elaborating entity "REGISTER_FLIP_FLOP" for hierarchy "CPU_main:CPU_main_0|RAM_INTERFACE:RAM_INTERFACE_1|REGISTER_FLIP_FLOP:REGISTER_FILE_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RAM_interface.v Line: 69
+Info (12128): Elaborating entity "Multiplexer_bus_2" for hierarchy "CPU_main:CPU_main_0|RAM_INTERFACE:RAM_INTERFACE_1|Multiplexer_bus_2:MUX_1" File: D:/FYP/github_repo/Prototype_Processor/Quartus_16_project/circuit/RAM_interface.v Line: 76
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -3243,9 +3243,9 @@ Info (21057): Implemented 1747 device resources after synthesis - the final reso
     Info (21061): Implemented 1633 logic cells
     Info (21064): Implemented 64 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 61 warnings
-    Info: Peak virtual memory: 913 megabytes
-    Info: Processing ended: Tue Jun 19 22:10:46 2018
-    Info: Elapsed time: 00:00:35
-    Info: Total CPU time (on all processors): 00:00:52
+    Info: Peak virtual memory: 937 megabytes
+    Info: Processing ended: Wed Jun 20 15:28:01 2018
+    Info: Elapsed time: 00:00:31
+    Info: Total CPU time (on all processors): 00:00:57
 
 
