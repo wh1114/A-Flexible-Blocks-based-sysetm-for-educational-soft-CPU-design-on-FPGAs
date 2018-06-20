@@ -1,0 +1,3 @@
+module EN_BUFF(EN,BUFF_IN,BUFF_OUT);
+
+endmodule

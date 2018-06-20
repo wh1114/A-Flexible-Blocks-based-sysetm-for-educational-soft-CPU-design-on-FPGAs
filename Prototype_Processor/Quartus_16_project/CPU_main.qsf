@@ -1,0 +1,235 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+# Date created = 14:48:19  May 31, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		CPU_main_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY processor_top_shell
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:48:19  MAY 31, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION 16.0.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ONCE_CPU_EN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ALWAYS_CPU_EN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_GlobalClock
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to NCLR
+set_location_assignment PIN_AE26 -to HEX0[0]
+set_location_assignment PIN_AE27 -to HEX0[1]
+set_location_assignment PIN_AE28 -to HEX0[2]
+set_location_assignment PIN_AG27 -to HEX0[3]
+set_location_assignment PIN_AF28 -to HEX0[4]
+set_location_assignment PIN_AG28 -to HEX0[5]
+set_location_assignment PIN_AH28 -to HEX0[6]
+set_location_assignment PIN_AJ29 -to HEX1[0]
+set_location_assignment PIN_AH29 -to HEX1[1]
+set_location_assignment PIN_AH30 -to HEX1[2]
+set_location_assignment PIN_AG30 -to HEX1[3]
+set_location_assignment PIN_AF29 -to HEX1[4]
+set_location_assignment PIN_AF30 -to HEX1[5]
+set_location_assignment PIN_AD27 -to HEX1[6]
+set_location_assignment PIN_AB23 -to HEX2[0]
+set_location_assignment PIN_AE29 -to HEX2[1]
+set_location_assignment PIN_AD29 -to HEX2[2]
+set_location_assignment PIN_AC28 -to HEX2[3]
+set_location_assignment PIN_AD30 -to HEX2[4]
+set_location_assignment PIN_AC29 -to HEX2[5]
+set_location_assignment PIN_AC30 -to HEX2[6]
+set_location_assignment PIN_AD26 -to HEX3[0]
+set_location_assignment PIN_AC27 -to HEX3[1]
+set_location_assignment PIN_AA25 -to HEX5[6]
+set_location_assignment PIN_AA26 -to HEX5[5]
+set_location_assignment PIN_AB26 -to HEX5[4]
+set_location_assignment PIN_AB27 -to HEX5[3]
+set_location_assignment PIN_Y27 -to HEX5[2]
+set_location_assignment PIN_AA28 -to HEX5[1]
+set_location_assignment PIN_V25 -to HEX5[0]
+set_location_assignment PIN_W25 -to HEX4[6]
+set_location_assignment PIN_V23 -to HEX4[5]
+set_location_assignment PIN_W24 -to HEX4[4]
+set_location_assignment PIN_W22 -to HEX4[3]
+set_location_assignment PIN_Y24 -to HEX4[2]
+set_location_assignment PIN_Y23 -to HEX4[1]
+set_location_assignment PIN_AA24 -to HEX4[0]
+set_location_assignment PIN_AB22 -to HEX3[6]
+set_location_assignment PIN_AB25 -to HEX3[5]
+set_location_assignment PIN_AB28 -to HEX3[4]
+set_location_assignment PIN_AC25 -to HEX3[3]
+set_location_assignment PIN_AD25 -to HEX3[2]
+set_location_assignment PIN_AA14 -to NCLR
+set_location_assignment PIN_Y16 -to ONCE_CPU_EN
+set_location_assignment PIN_AB12 -to ALWAYS_CPU_EN
+set_location_assignment PIN_AF14 -to FPGA_GlobalClock
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED9_6[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED9_6[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED9_6[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED9_6[0]
+set_location_assignment PIN_Y21 -to LED9_6[3]
+set_location_assignment PIN_Y19 -to LED9_6[0]
+set_location_assignment PIN_W20 -to LED9_6[1]
+set_location_assignment PIN_W21 -to LED9_6[2]
+set_location_assignment PIN_W19 -to LED5
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED5
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_18_INPUTS.v
+set_global_assignment -name VERILOG_FILE ROM_QUARTUS_16.v
+set_global_assignment -name VERILOG_FILE RAM_QUARTUS_16.v
+set_global_assignment -name VERILOG_FILE circuit/Top_level_processor_with_wrapper.v
+set_global_assignment -name VERILOG_FILE circuit/State_machine.v
+set_global_assignment -name VERILOG_FILE circuit/RIGHT_SHIFT_BLOCK.v
+set_global_assignment -name VERILOG_FILE circuit/PROCESSOR_CTRL_UNIT.v
+set_global_assignment -name VERILOG_FILE circuit/PC_RAM_DECODER.v
+set_global_assignment -name VERILOG_FILE circuit/LEFT_SHIFT_BLOCK.v
+set_global_assignment -name VERILOG_FILE circuit/FLAG_REGISTER.v
+set_global_assignment -name VERILOG_FILE circuit/CTRL_DECODER.v
+set_global_assignment -name VERILOG_FILE circuit/CPU_REGISTERS.v
+set_global_assignment -name VERILOG_FILE circuit/COND_FLAG_CHK.v
+set_global_assignment -name VERILOG_FILE circuit/ALU.v
+set_global_assignment -name VERILOG_FILE wrapper/Soft_core_CPU_wrapper_top.v
+set_global_assignment -name VERILOG_FILE wrapper/pluse_gen_extra_delay.v
+set_global_assignment -name VERILOG_FILE wrapper/pluse_gen.v
+set_global_assignment -name VERILOG_FILE wrapper/output_display.v
+set_global_assignment -name VERILOG_FILE wrapper/hex27seg.v
+set_global_assignment -name VERILOG_FILE wrapper/CPU_EN_CTRL.v
+set_global_assignment -name VERILOG_FILE arithmetic/Shifter_32_bit.v
+set_global_assignment -name VERILOG_FILE arithmetic/FullAdder.v
+set_global_assignment -name VERILOG_FILE arithmetic/Comparator.v
+set_global_assignment -name VERILOG_FILE arithmetic/Adder.v
+set_global_assignment -name VERILOG_FILE base/LogisimTickGenerator.v
+set_global_assignment -name VERILOG_FILE base/LogisimClockComponent.v
+set_global_assignment -name VERILOG_FILE circuit/ROM_on_Quartus.v
+set_global_assignment -name VERILOG_FILE circuit/RAM_on_Quartus.v
+set_global_assignment -name VERILOG_FILE circuit/RAM_interface.v
+set_global_assignment -name VERILOG_FILE circuit/Decoder_state_machine_combination_circuit.v
+set_global_assignment -name VERILOG_FILE circuit/Decoder_ALU_Reg_Ctrl.v
+set_global_assignment -name VERILOG_FILE circuit/CPU_REG.v
+set_global_assignment -name VERILOG_FILE circuit/CPU_main.v
+set_global_assignment -name VERILOG_FILE circuit/Condition_Reg.v
+set_global_assignment -name VERILOG_FILE circuit/COND_CHK.v
+set_global_assignment -name VERILOG_FILE circuit/ALU_RIGHT_SHIFT.v
+set_global_assignment -name VERILOG_FILE circuit/ALU_LEFT_SHIFT.v
+set_global_assignment -name VERILOG_FILE circuit/ALU_enhanced.v
+set_global_assignment -name VERILOG_FILE circuit/ALU_ADDER.v
+set_global_assignment -name VERILOG_FILE gates/XOR_GATE_ONEHOT.v
+set_global_assignment -name VERILOG_FILE gates/XOR_GATE_BUS_ONEHOT.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_BUS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_17_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_9_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_7_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_6_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_5_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_4_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE_3_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/OR_GATE.v
+set_global_assignment -name VERILOG_FILE gates/NOT_GATE_BUS.v
+set_global_assignment -name VERILOG_FILE gates/NOT_GATE.v
+set_global_assignment -name VERILOG_FILE gates/NAND_GATE_5_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/NAND_GATE_4_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/NAND_GATE_3_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_BUS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_10_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_9_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_8_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_7_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_6_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_5_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_4_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE_3_INPUTS.v
+set_global_assignment -name VERILOG_FILE gates/AND_GATE.v
+set_global_assignment -name VERILOG_FILE memory/REGISTER_FLIP_FLOP.v
+set_global_assignment -name VERILOG_FILE plexers/Multiplexer_bus_16.v
+set_global_assignment -name VERILOG_FILE plexers/Multiplexer_bus_8.v
+set_global_assignment -name VERILOG_FILE plexers/Multiplexer_bus_4.v
+set_global_assignment -name VERILOG_FILE plexers/Multiplexer_bus_2.v
+set_global_assignment -name VERILOG_FILE plexers/Multiplexer_2.v
+set_global_assignment -name VERILOG_FILE plexers/Decoder_16.v
+set_global_assignment -name VERILOG_FILE toplevel/LogisimToplevelShell.v
+set_global_assignment -name VERILOG_FILE toplevel/processor_top_shell.v
+set_global_assignment -name VERILOG_FILE wrapper/EN_BUFF.v
+set_global_assignment -name QIP_FILE ROM_CPU.qip
+set_global_assignment -name QIP_FILE RAM_CPU.qip
+set_global_assignment -name SDC_FILE output_files/CPU_main.sdc
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

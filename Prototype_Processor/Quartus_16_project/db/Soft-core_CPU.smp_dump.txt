@@ -1,0 +1,20 @@
+
+State Machine - |processor_top_shell|Soft_core_CPU_wrapper_top:CPU_wrapper|CPU_EN_GEN:CPU_EN_GENERATOR|pluse_gen:ONCE_CPU_EN_pulse_gen|state
+Name state.00 state.10 state.01 
+state.00 0 0 0 
+state.01 1 0 1 
+state.10 1 1 0 
+
+State Machine - |processor_top_shell|Soft_core_CPU_wrapper_top:CPU_wrapper|Soft_core_CPU_output_display:CPU_output_display|state
+Name state.S_D state.S_C state.S_B state.S_A 
+state.S_A 0 0 0 0 
+state.S_B 0 0 1 1 
+state.S_C 0 1 0 1 
+state.S_D 1 0 0 1 
+
+State Machine - |processor_top_shell|Soft_core_CPU_wrapper_top:CPU_wrapper|pluse_gen_extra_delay:pluse_gen_extra_delay|state
+Name state.11 state.10 state.01 state.00 
+state.00 0 0 0 0 
+state.01 0 0 1 1 
+state.10 0 1 0 1 
+state.11 1 0 0 1 

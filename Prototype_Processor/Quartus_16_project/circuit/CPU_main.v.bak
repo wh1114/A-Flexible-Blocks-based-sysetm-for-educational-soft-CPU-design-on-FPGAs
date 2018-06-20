@@ -1,0 +1,284 @@
+/******************************************************************************
+ ** Logisim goes FPGA automatic generated Verilog code                       **
+ **                                                                          **
+ ** Component : CPU_main                                                     **
+ **                                                                          **
+ ******************************************************************************/
+
+module CPU_main( ASYN_CLR,
+                 CPU_EN,
+                 LOGISIM_CLOCK_TREE_0,
+                 DOUT,
+                 PC_OUT);
+
+   /***************************************************************************
+    ** Here the inputs are defined                                           **
+    ***************************************************************************/
+   input  ASYN_CLR;
+   input  CPU_EN;
+   input[4:0]  LOGISIM_CLOCK_TREE_0;
+
+   /***************************************************************************
+    ** Here the outputs are defined                                          **
+    ***************************************************************************/
+   output DOUT;
+   output[7:0] PC_OUT;
+
+   /***************************************************************************
+    ** Here the internal wires are defined                                   **
+    ***************************************************************************/
+   wire[2:0] s_LOGISIM_BUS_1;
+   wire[31:0] s_LOGISIM_BUS_13;
+   wire[3:0] s_LOGISIM_BUS_19;
+   wire[31:0] s_LOGISIM_BUS_2;
+   wire[31:0] s_LOGISIM_BUS_26;
+   wire[31:0] s_LOGISIM_BUS_27;
+   wire[31:0] s_LOGISIM_BUS_29;
+   wire[3:0] s_LOGISIM_BUS_34;
+   wire[31:0] s_LOGISIM_BUS_36;
+   wire[31:0] s_LOGISIM_BUS_39;
+   wire[9:0] s_LOGISIM_BUS_40;
+   wire[31:0] s_LOGISIM_BUS_42;
+   wire[3:0] s_LOGISIM_BUS_44;
+   wire[1:0] s_LOGISIM_BUS_45;
+   wire[31:0] s_LOGISIM_BUS_46;
+   wire[31:0] s_LOGISIM_BUS_48;
+   wire[3:0] s_LOGISIM_BUS_5;
+   wire[3:0] s_LOGISIM_BUS_50;
+   wire[31:0] s_LOGISIM_BUS_55;
+   wire[31:0] s_LOGISIM_BUS_57;
+   wire[31:0] s_LOGISIM_BUS_58;
+   wire[8:0] s_LOGISIM_BUS_59;
+   wire[1:0] s_LOGISIM_BUS_8;
+   wire[3:0] s_LOGISIM_BUS_9;
+   wire s_LOGISIM_NET_0;
+   wire s_LOGISIM_NET_10;
+   wire s_LOGISIM_NET_11;
+   wire s_LOGISIM_NET_12;
+   wire s_LOGISIM_NET_14;
+   wire s_LOGISIM_NET_17;
+   wire s_LOGISIM_NET_18;
+   wire s_LOGISIM_NET_22;
+   wire s_LOGISIM_NET_24;
+   wire s_LOGISIM_NET_25;
+   wire s_LOGISIM_NET_3;
+   wire s_LOGISIM_NET_30;
+   wire s_LOGISIM_NET_32;
+   wire s_LOGISIM_NET_33;
+   wire s_LOGISIM_NET_35;
+   wire s_LOGISIM_NET_37;
+   wire s_LOGISIM_NET_38;
+   wire s_LOGISIM_NET_4;
+   wire s_LOGISIM_NET_41;
+   wire s_LOGISIM_NET_43;
+   wire s_LOGISIM_NET_49;
+   wire s_LOGISIM_NET_52;
+
+
+   /***************************************************************************
+    ** Here all clock generator connections are defined                      **
+    ***************************************************************************/
+   assign s_LOGISIM_NET_10                   = LOGISIM_CLOCK_TREE_0[0];
+
+   /***************************************************************************
+    ** Here all wiring is defined                                            **
+    ***************************************************************************/
+   assign s_LOGISIM_BUS_9[0]                 = s_LOGISIM_BUS_42[9];
+   assign s_LOGISIM_BUS_13[9]                = s_LOGISIM_BUS_9[0];
+   assign s_LOGISIM_BUS_9[1]                 = s_LOGISIM_BUS_42[10];
+   assign s_LOGISIM_BUS_13[10]               = s_LOGISIM_BUS_9[1];
+   assign s_LOGISIM_BUS_9[2]                 = s_LOGISIM_BUS_42[11];
+   assign s_LOGISIM_BUS_13[11]               = s_LOGISIM_BUS_9[2];
+   assign s_LOGISIM_BUS_9[3]                 = s_LOGISIM_BUS_42[12];
+   assign s_LOGISIM_BUS_13[12]               = s_LOGISIM_BUS_9[3];
+   assign s_LOGISIM_BUS_59[0]                = s_LOGISIM_BUS_42[0];
+   assign s_LOGISIM_BUS_13[0]                = s_LOGISIM_BUS_59[0];
+   assign s_LOGISIM_BUS_59[1]                = s_LOGISIM_BUS_42[1];
+   assign s_LOGISIM_BUS_13[1]                = s_LOGISIM_BUS_59[1];
+   assign s_LOGISIM_BUS_59[2]                = s_LOGISIM_BUS_42[2];
+   assign s_LOGISIM_BUS_13[2]                = s_LOGISIM_BUS_59[2];
+   assign s_LOGISIM_BUS_59[3]                = s_LOGISIM_BUS_42[3];
+   assign s_LOGISIM_BUS_13[3]                = s_LOGISIM_BUS_59[3];
+   assign s_LOGISIM_BUS_59[4]                = s_LOGISIM_BUS_42[4];
+   assign s_LOGISIM_BUS_13[4]                = s_LOGISIM_BUS_59[4];
+   assign s_LOGISIM_BUS_59[5]                = s_LOGISIM_BUS_42[5];
+   assign s_LOGISIM_BUS_13[5]                = s_LOGISIM_BUS_59[5];
+   assign s_LOGISIM_BUS_59[6]                = s_LOGISIM_BUS_42[6];
+   assign s_LOGISIM_BUS_13[6]                = s_LOGISIM_BUS_59[6];
+   assign s_LOGISIM_BUS_59[7]                = s_LOGISIM_BUS_42[7];
+   assign s_LOGISIM_BUS_13[7]                = s_LOGISIM_BUS_59[7];
+   assign s_LOGISIM_BUS_59[8]                = s_LOGISIM_BUS_42[8];
+   assign s_LOGISIM_BUS_13[8]                = s_LOGISIM_BUS_59[8];
+
+   /***************************************************************************
+    ** Here all input connections are defined                                **
+    ***************************************************************************/
+   assign s_LOGISIM_NET_38                   = CPU_EN;
+   assign s_LOGISIM_NET_3                    = ASYN_CLR;
+
+   /***************************************************************************
+    ** Here all output connections are defined                               **
+    ***************************************************************************/
+   assign DOUT                               = s_LOGISIM_NET_35;
+   assign PC_OUT                             = s_LOGISIM_BUS_29[7:0];
+
+   /***************************************************************************
+    ** Here all in-lined components are defined                              **
+    ***************************************************************************/
+   assign s_LOGISIM_BUS_55[31:0] = 32'd-1;
+
+   assign s_LOGISIM_BUS_13[31:13] = 19'd0;
+
+   assign s_LOGISIM_BUS_57[31:0] = 32'd1;
+
+   assign s_LOGISIM_NET_49 = 1'd0;
+
+
+   /***************************************************************************
+    ** Here all normal components are defined                                **
+    ***************************************************************************/
+   Multiplexer_bus_4 #(.NrOfBits(32))
+      MUX_1 (.Enable(1'b1),
+             .MuxIn_0(s_LOGISIM_BUS_2[31:0]),
+             .MuxIn_1(s_LOGISIM_BUS_13[31:0]),
+             .MuxIn_2(s_LOGISIM_BUS_55[31:0]),
+             .MuxIn_3(32'd0),
+             .MuxOut(s_LOGISIM_BUS_26[31:0]),
+             .Sel(s_LOGISIM_BUS_8[1:0]));
+
+   NAND_GATE_4_INPUTS #(.BubblesMask(0))
+      GATE_1 (.Input_1(s_LOGISIM_BUS_5[0]),
+              .Input_2(s_LOGISIM_BUS_5[1]),
+              .Input_3(s_LOGISIM_BUS_5[2]),
+              .Input_4(s_LOGISIM_BUS_5[3]),
+              .Result(s_LOGISIM_NET_11));
+
+   Multiplexer_bus_2 #(.NrOfBits(32))
+      MUX_2 (.Enable(1'b1),
+             .MuxIn_0(s_LOGISIM_BUS_27[31:0]),
+             .MuxIn_1(s_LOGISIM_BUS_36[31:0]),
+             .MuxOut(s_LOGISIM_BUS_58[31:0]),
+             .Sel(s_LOGISIM_NET_22));
+
+   Multiplexer_bus_2 #(.NrOfBits(32))
+      MUX_3 (.Enable(s_LOGISIM_NET_11),
+             .MuxIn_0(s_LOGISIM_BUS_36[31:0]),
+             .MuxIn_1(s_LOGISIM_BUS_46[31:0]),
+             .MuxOut(s_LOGISIM_BUS_48[31:0]),
+             .Sel(s_LOGISIM_NET_33));
+
+   Adder #(.ExtendedBits(33),
+           .NrOfBits(32))
+      ADDER2C_1 (.CarryIn(s_LOGISIM_NET_49),
+                 .CarryOut(),
+                 .DataA(s_LOGISIM_BUS_29[31:0]),
+                 .DataB(s_LOGISIM_BUS_57[31:0]),
+                 .Result(s_LOGISIM_BUS_27[31:0]));
+
+
+   /***************************************************************************
+    ** Here all sub-circuits are defined                                     **
+    ***************************************************************************/
+   ALU_enhanced      ALU_enhanced_1 (.BIC(s_LOGISIM_NET_37),
+                                     .CIN(s_LOGISIM_NET_24),
+                                     .Flag_Out(s_LOGISIM_BUS_50[3:0]),
+                                     .Fnc_SEL(s_LOGISIM_BUS_1[2:0]),
+                                     .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0),
+                                     .Op1(s_LOGISIM_BUS_39[31:0]),
+                                     .Op2(s_LOGISIM_BUS_26[31:0]),
+                                     .RESULT(s_LOGISIM_BUS_36[31:0]),
+                                     .RSB(s_LOGISIM_NET_41),
+                                     .SHIFT_SEL(s_LOGISIM_BUS_45[1:0]),
+                                     .SUB(s_LOGISIM_NET_52));
+
+   RAM_interface      RAM_interface_1 (.ADDR_DFF_EN(s_LOGISIM_NET_25),
+                                       .ADDR_IN(s_LOGISIM_BUS_36[9:0]),
+                                       .ADDR_MUX_EN(s_LOGISIM_NET_14),
+                                       .ADDR_OUT(s_LOGISIM_BUS_40[9:0]),
+                                       .ADDR_SRC_SEL(s_LOGISIM_NET_4),
+                                       .CLK(s_LOGISIM_NET_10),
+                                       .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0));
+
+   Condition_Reg      Condition_Reg_1 (.CLEAR_FLG(s_LOGISIM_NET_3),
+                                       .C_EN(s_LOGISIM_NET_32),
+                                       .Clock(s_LOGISIM_NET_10),
+                                       .Flag_in(s_LOGISIM_BUS_50[3:0]),
+                                       .Flag_reg(s_LOGISIM_BUS_19[3:0]),
+                                       .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0),
+                                       .NZ_EN(s_LOGISIM_NET_0),
+                                       .V_EN(s_LOGISIM_NET_43));
+
+   COND_CHK      COND_CHK_1 (.COND_IN(s_LOGISIM_BUS_42[31:28]),
+                             .COND_MATCH(s_LOGISIM_NET_17),
+                             .FLAG_IN(s_LOGISIM_BUS_19[3:0]),
+                             .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0));
+
+   Decoder_state_machine_combination_circuit      Decoder_state_machine_combination_circuit_1 (.ADDR_DFF_EN(s_LOGISIM_NET_25),
+                                                                                               .ADDR_MUX_EN(s_LOGISIM_NET_14),
+                                                                                               .ADDR_SRC_SEL(s_LOGISIM_NET_4),
+                                                                                               .CLEAR_STATE(s_LOGISIM_NET_3),
+                                                                                               .CLK(s_LOGISIM_NET_10),
+                                                                                               .CONDITION_MATCHED(s_LOGISIM_NET_17),
+                                                                                               .CPU_EN(s_LOGISIM_NET_38),
+                                                                                               .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0),
+                                                                                               .OPCODE(s_LOGISIM_BUS_42[26:22]),
+                                                                                               .PC_REG(s_LOGISIM_NET_12),
+                                                                                               .PC_SRC(s_LOGISIM_NET_22),
+                                                                                               .ROM_EN(s_LOGISIM_NET_30),
+                                                                                               .STATE(s_LOGISIM_BUS_44[3:0]),
+                                                                                               .WREN(s_LOGISIM_NET_18));
+
+   CPU_REG      CPU_REG_1 (.CLK(s_LOGISIM_NET_10),
+                           .CLR(s_LOGISIM_NET_3),
+                           .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0),
+                           .PC_BUS(s_LOGISIM_BUS_58[31:0]),
+                           .PC_CLR(s_LOGISIM_NET_3),
+                           .PC_EN(s_LOGISIM_NET_12),
+                           .PC_OUT(s_LOGISIM_BUS_29[31:0]),
+                           .REG_1_OUT(s_LOGISIM_BUS_39[31:0]),
+                           .REG_1_SEL(s_LOGISIM_BUS_42[20:17]),
+                           .REG_2_OUT(s_LOGISIM_BUS_2[31:0]),
+                           .REG_2_SEL(s_LOGISIM_BUS_34[3:0]),
+                           .REG_BUS(s_LOGISIM_BUS_48[31:0]),
+                           .REG_SEL(s_LOGISIM_BUS_5[3:0]));
+
+   RAM_on_Quartus      RAM_on_Quartus_1 (.ADDR_in(s_LOGISIM_BUS_40[9:0]),
+                                         .CLK(s_LOGISIM_NET_10),
+                                         .DATA_OUT(s_LOGISIM_BUS_46[31:0]),
+                                         .DATA_in(s_LOGISIM_BUS_36[31:0]),
+                                         .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0),
+                                         .WREN(s_LOGISIM_NET_18));
+
+   Decoder_ALU_Reg_Ctrl      Decoder_ALU_Reg_Ctrl_1 (.ALU_CIN(s_LOGISIM_NET_24),
+                                                     .BIC(s_LOGISIM_NET_37),
+                                                     .C(s_LOGISIM_NET_32),
+                                                     .C_flag(s_LOGISIM_BUS_19[1]),
+                                                     .DOUT(s_LOGISIM_NET_35),
+                                                     .Func_SEL(s_LOGISIM_BUS_1[2:0]),
+                                                     .INT(s_LOGISIM_BUS_42[27]),
+                                                     .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0),
+                                                     .NZ(s_LOGISIM_NET_0),
+                                                     .OP2_REG_SEL(s_LOGISIM_BUS_34[3:0]),
+                                                     .OP2_SRC_SEL(s_LOGISIM_BUS_8[1:0]),
+                                                     .OPCODE(s_LOGISIM_BUS_42[26:22]),
+                                                     .REG_SRC(s_LOGISIM_NET_33),
+                                                     .RN_0_ROM_IN(s_LOGISIM_BUS_42[20:17]),
+                                                     .RN_1_ROM_IN(s_LOGISIM_BUS_9[3:0]),
+                                                     .RSB(s_LOGISIM_NET_41),
+                                                     .Rd_In(s_LOGISIM_BUS_42[16:13]),
+                                                     .Rd_Out(s_LOGISIM_BUS_5[3:0]),
+                                                     .S(s_LOGISIM_BUS_42[21]),
+                                                     .SHIFT_SEL(s_LOGISIM_BUS_45[1:0]),
+                                                     .STATE(s_LOGISIM_BUS_44[3:0]),
+                                                     .SUB(s_LOGISIM_NET_52),
+                                                     .V(s_LOGISIM_NET_43));
+
+   ROM_on_Quartus      ROM_on_Quartus_1 (.ADDR_in(s_LOGISIM_BUS_29[9:0]),
+                                         .CLK(s_LOGISIM_NET_10),
+                                         .CLK_EN(s_LOGISIM_NET_30),
+                                         .DATA(s_LOGISIM_BUS_42[31:0]),
+                                         .LOGISIM_CLOCK_TREE_0(LOGISIM_CLOCK_TREE_0));
+
+
+
+endmodule

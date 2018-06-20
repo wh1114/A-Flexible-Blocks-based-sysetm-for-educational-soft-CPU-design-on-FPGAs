@@ -1,0 +1,1 @@
+java -jar logisim-evolution_2_14_4.jar -analyze
