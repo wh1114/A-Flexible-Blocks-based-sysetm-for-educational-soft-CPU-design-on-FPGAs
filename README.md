@@ -1,6 +1,7 @@
 # A-Flexible-Blocks-based-system-for-educational-soft-CPU-design-on-FPGAs
-====================================================================================
 
+
+## Introduction of the project
 This project is the final year project of a student from Imperial College London. 
 The name of the project is A Flexible Blocks based system for educational soft CPU design on FPGAs.
 This project is to develop a development environment where future first-year students in Imperial can build a RISC soft-core CPU on.
@@ -10,6 +11,7 @@ The graphical implementation use a software called [Logisim Evolution](https://g
 This software can transform the graphical logic blocks in Logisim Evolution into Verilog HDL, which is used to implement the processor onto Cyclone V SE series on a [DE1 board](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836#section).
 The implementation from Verilog HDL programme of the soft-core CPU onto DE1 uses [Quartus 16.0](http://dl.altera.com/16.0/?edition=standard&platform=windows&download_manager=dlm3) for compiling and download onto the DE1 board.
 
+## Structure of the files
 This project is structured as following:
 
 - [Prototype processor](Prototype_Processor): a prototype processor created as a reference for the development environment.
