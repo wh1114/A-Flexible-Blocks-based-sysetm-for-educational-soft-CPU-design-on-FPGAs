@@ -8,6 +8,7 @@ module pluse_gen_extra_delay (clock,trigger,load);
 	reg [1:0] state;
 	reg load;
 	
+	initial state = 2'b00;
 
 	
 	always@ (posedge clock)begin
